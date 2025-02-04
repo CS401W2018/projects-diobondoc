@@ -1,0 +1,34 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer p{
+    color: brown;
+}
+
+#firstpar{
+    color: cadetblue;
+}
+
+.secondpar{
+    color: burlywood;
+}
+
+.bigger{
+    font-size: larger;
+
+}
+.firstcol{
+    color: rebeccapurple;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.answercol{
+    color: blueviolet;
+}
+.questioncol{
+    color: cadetblue;
+}
