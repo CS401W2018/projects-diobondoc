@@ -1,17 +1,36 @@
 .background{
-    background-color: rgb(118, 155, 155);
+    background-color: rgb(212, 201, 180);
 }
-.font{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(84, 37, 17);
-    font-size: ;
+.body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(111, 92, 54);
+    font-size: large;
 }
 .titlefont{
     font-style: italic;
-    font-size: 40pt;
-    font-weight: bolder;
+    color: rgb(77, 69, 52);
 
 }
 .underline{
     text-decoration: underline;
+}
+
+#emphasis{
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.header{
+    font-family: 'Papyrus';
+    font-size: 55pt;
+    color: rgb(76, 62, 32);
+}
+
+#coldeemphasize{
+    color: rgb(111, 92, 54);
+}
+
+#colemphasize{
+    color: rgb(77, 69, 52);
 }
