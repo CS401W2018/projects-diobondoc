@@ -1,0 +1,17 @@
+.background{
+    background-color: rgb(118, 155, 155);
+}
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(84, 37, 17);
+    font-size: ;
+}
+.titlefont{
+    font-style: italic;
+    font-size: 40pt;
+    font-weight: bolder;
+
+}
+.underline{
+    text-decoration: underline;
+}
