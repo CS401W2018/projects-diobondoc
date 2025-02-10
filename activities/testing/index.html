@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💖 A Special Question 💖</h1>
+        <p>Hey there! I have something special to ask you...</p>
+        <h2 id="question">Will you be my Valentine?</h2>
+        <div class="response">
+            <button onclick="showResponse('yes')">Yes</button>
+            <button onclick="showResponse('no')">No</button>
+        </div>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script>
+        function showResponse(answer) {
+            const resultDiv = document.getElementById('result');
+            const question = document.getElementById('question');
+
+            if (answer === 'yes') {
+                resultDiv.innerHTML = "<p>Yay! I'm so happy! ❤️</p>";
+                // Optionally, you can hide the question and buttons after a "Yes"
+                document.querySelector('.response').style.display = 'none';
+            } else {
+                resultDiv.innerHTML = "<p>That's okay! Let's try again...</p>";
+                // Reset the question to ask again
+                question.innerHTML = "Will you be my Valentine?";
+            }
+        }
+    </script>
+</body>
+</html>
