@@ -1,0 +1,23 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('brownbg.jpg') burlywood;
+    /* this is another way
+    background-color:burlywood;
+    background-image: url('brownbg.jpg');
+    */
+}
+
+.mylist{
+    /* I can use this to change the style of my unordered list*/
+    /*list-style-image: url('flower.png');*/
+    list-style-type: none;
+}
+header{
+    background-image: url('flower.png');
+    /*this will make it not repeat*/
+    background-repeat: no-repeat;
+    /*this will reposition*/
+    background-position: center;
+    /*this is how you combine all of this*/
+    background: url('flower.png') no-repeat center;
+}
