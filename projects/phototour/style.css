@@ -1,5 +1,6 @@
 body{
     background: url("images.jpeg") repeat;
+    background-color: antiquewhite;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(102, 5, 24);
 }
