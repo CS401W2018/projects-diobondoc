@@ -1,0 +1,29 @@
+body{
+    background: url("images.jpeg") repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(102, 5, 24);
+}
+
+.decoration{
+    background: url("images.png") no-repeat right;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(6, 48, 255);
+}
+
+nav a:hover{
+    color: red;
+}
+
+.current{
+    text-decoration: underline;
+    color: rgb(176, 36, 36);
+
+}
+
+.mylist{
+    list-style-image: url(flower.png);
+}
+    
