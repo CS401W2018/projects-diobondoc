@@ -1,0 +1,59 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body h2{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 30px;
+}
+header{
+    background-color: burlywood;
+    padding: 30px 10px 15px;
+    margin: 25px;
+    width: 80%;
+    overflow: visible;
+}
+
+header h1{
+    border: 3px dotted #000
+}
+
+.boxa{
+    background-color: burlywood;
+    border: thin solid #000;
+    margin: 20px;
+
+
+}
+
+.boxb{
+    background-color: burlywood;
+    border: 3px dotted #000;
+    margin: 20px;
+
+}
+
+.boxc{
+    background-color: burlywood;
+    border: 3px dashed #000;
+    margin: 20px;
+}
+
+.boxd{
+    background-color: burlywood;
+    border: 3px solid #000;
+    margin: 20px;
+}
+
+.wave{
+    width: 100px;
+    border: thin solid black;
+    text-align: center;
+    margin: auto;
+}
+
+.wave img{
+    width: 100%;
+
+}
