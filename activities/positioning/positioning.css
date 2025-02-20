@@ -1,0 +1,36 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+nav a{
+    background-color: burlywood;
+    display: block;
+    padding: 10px 5px;
+    border-bottom: 3px solid #fff;
+
+}
+.photo{
+    width: 250px;
+    border: thin solid #000;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    font-size: 10pt;
+
+    text-align: center;
+}
+.photo img{
+    width: 100%;
+}
+.floatimg{
+    float: left;
+}
+
+.movimg{
+    position: absolute;
+    top: 400px;
+    right: 50px;
+}
+
+.clear{
+    clear: both;
+}
