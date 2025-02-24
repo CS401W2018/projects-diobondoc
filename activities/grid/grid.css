@@ -1,0 +1,15 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parent{
+    background-color: bisque;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.child{
+    background-color: aquamarine;
+}
