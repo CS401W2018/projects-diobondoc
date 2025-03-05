@@ -49,3 +49,29 @@ nav a:hover{
 .card img{
     width: 100%;
 }
+
+@media ONLY screen and (max-width: 900px){
+    .parent{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    .feature{
+        order: -1;
+    }
+}
+@media ONLY screen AND (max-width: 700px){
+    nav{
+        flex-direction: column;
+    }
+    nav a {
+        border-bottom: thin solid white;
+    }
+
+
+}
