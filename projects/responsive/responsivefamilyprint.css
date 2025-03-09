@@ -3,25 +3,21 @@ body{
 }
 
 header{
-    background-color: burlywood;
-    padding: 5px;
-    text-align: center;
-    width: 100%;
+    display: none;
+}
+
+footer{
+    display: none;
 }
 
 
 nav{
-    background-color: rgb(174, 132, 76);
-    display: flex;
-    justify-content: space-evenly;
+    display: none;
+
 }
 
 nav a{
-    display: block;
-    background-color: rgb(186, 156, 47);
-    padding: 10px;
-    text-decoration: none;
-    color: black;
+    display: none;
 }
 
 nav a:hover{
@@ -95,15 +91,6 @@ main h2{
 }
 
 @media ONLY screen AND (max-width:700px){
-    nav{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    nav a{
-        border: thin solid white;
-    }
     .parent{
         flex-direction: column;
         align-items: center;
