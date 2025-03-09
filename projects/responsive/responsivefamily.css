@@ -129,8 +129,6 @@ main h2{
 
     .sidebar{
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         align-items: center;
         order: 2;
         margin: 0;
