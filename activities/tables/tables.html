@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+    <main>
+        <h1>Engagement Questions</h1>
+        <p>When do you use a table?</p>
+        <p>- When you have data that needs to be organized. Example excel spreadsheet and you want to put that in a webpage. Maybe players on a favorite team, stats, position, schedule, and etc.</p>
+        <p>When do you not use a table?</p>
+        <p>- Not use table to layout elements on page. </p>
+        <p>When do you need to do extra work for table accessibility?</p>
+        <p>- When dealing with more tables and a lot of headers. This will make the table a lot more easier to read.</p>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Department</th>
+                    <th>Number</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="5">Winter 2025</th>
+                </tr>
+                <tr>
+                    <td>CS</td>
+                    <td rowspan="2">140</td>
+                    <td>11:00-11:50 AM</td>
+                    <td>P2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS</td>
+                    <td>12:00-12:50 PM</td>
+                    <td>P3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS</td>
+                    <td>210</td>
+                    <td>2:00-2:50 PM</td>
+                    <td>P3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS</td>
+                    <td>320</td>
+                    <td>3:00-3:50 PM</td>
+                    <td>P3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th colspan="5">Spring 2025</th>
+                </tr>
+                <tr>
+                    <td>CS</td>
+                    <td>320</td>
+                    <td>12:00-12:50 PM</td>
+                    <td>P3</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th id="total-credits" colspan="4"> Total Credits</th>
+                    <td header="total-credits">15</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; Dio Bondoc, 2025</p>
+    </footer>
+</body>
+</html>
