@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.schedule{
+    /*border: 3px solid black;*/
+    box-shadow: 3px 3px 3px rgba(30, 30, 30, 0.5);
+    border-radius: 5px;
+    caption-side: bottom;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.schedule th, .schedule td{
+    /*border: thin solid black;*/
+    /*background-color: rgb(155, 237, 209);*/
+    padding: 10px;
+    vertical-align: middle;
+    /*border-bottom: thin solid black;*/
+}
+
+.schedule thead tr{
+    background-color: blue;
+    color: white;
+}
+
+.schedule tfoot tr{
+    background-color: blue;
+    color: white;
+}
+
+.schedule tbody tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+main p:first-letter{
+    font-size: 40px;
+    color: aquamarine;
+}

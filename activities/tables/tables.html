@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
+    <link rel="stylesheet" href="tables.css">
 </head>
 <body>
     <header>
@@ -24,8 +25,13 @@
         <p>- Not use table to layout elements on page. </p>
         <p>When do you need to do extra work for table accessibility?</p>
         <p>- When dealing with more tables and a lot of headers. This will make the table a lot more easier to read.</p>
-
-        <table border="1">
+        <p>Why don't we use the border attribute?</p>
+        <p>- It will get a validation error. This border will override css.</p>
+        <p>What is the easiest way to color every other row a different color?</p>
+        <p>- Use pseudo class to make it easier. </p>
+        <h1>Tables</h1>
+        <table class="schedule">
+            <caption>Course Schedule</caption>
             <thead>
                 <tr>
                     <th>Department</th>
@@ -84,6 +90,7 @@
                 </tr>
             </tfoot>
         </table>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, mollitia error. Voluptates explicabo impedit qui reprehenderit molestiae placeat quis sequi hic maxime tempore distinctio accusantium tenetur sit, veniam nulla soluta!</p>
     </main>
     <footer>
         <p>&copy; Dio Bondoc, 2025</p>
