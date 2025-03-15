@@ -70,6 +70,7 @@ nav a:hover{
 .parent{
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 
 .sidebar{
