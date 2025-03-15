@@ -1,0 +1,105 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: rgb(131, 14, 14);
+    border: thin solid black;
+    text-align: center;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(131, 14, 14);
+    padding: 0;
+    margin: 10px;
+    border: thin solid black;
+}
+
+nav a{
+    background-color: rgb(19, 17, 32);
+    padding: 10px;
+    border: thin solid black;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: brown;
+}
+
+.table{
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    caption-side: top;
+    border-spacing: 0;
+    margin: 100px;
+}
+
+.table caption{
+    background-color: brown;
+    font-size: xx-large;
+    text-decoration: double;
+    color: rgb(0, 0, 0);
+    border: thin solid black;
+}
+
+.table th, .table td{
+    border: thin solid black;
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: thin solid black;
+}
+
+.table thead tr{
+    background-color: rgb(105, 12, 12);
+}
+.table tbody tr:nth-child(odd){
+    background-color: rgb(145, 21, 21);
+}
+.table tbody tr:nth-child(even){
+    background-color: brown;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sidebar{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background-color: rgb(131, 14, 14);
+    border: thin solid black;
+    width: 350px;
+    margin: 10px;
+}
+
+.sidebarimg{
+    margin: 0;  
+    width: 100%; 
+}
+
+.sidebar h2{
+    color: rgb(185, 181, 181);
+}
+.sidebarimg img{
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+.sidebarimg figcaption{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    background-color: brown;
+}
+
+ 
