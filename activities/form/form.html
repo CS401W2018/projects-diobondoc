@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+    <main>
+        <h2>Engagement questions</h2>
+        <p>The form tag has an "action" attribute. What does it do?</p>
+        <p>- This is where the data will be sent to.</p>
+        <p>The form tag has a "method" attribute. What does it do?</p>
+        <p>- This is how we tell on how the data will be sent to the server.</p>
+        <p>What is the difference between a "POST" and a "GET"?</p>
+        <p>-The main difference is the data is not seen in the url when used POST. GET requests shows it in the url. The main difference is by submitting this form am I changing something in the server, or am I keeping stuff the same. </p>
+        <form action="processing.html" method="get">
+            <div class="form-row">
+                <label for="fullname">Full Name</label>
+                <input type="text" name="fullname" placeholder="Full Name" required="required" id="fullname">
+            </div>
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email" required="required" value="diobondoc@byuh.edu" id="email">
+            </div>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" name="password" id="pass" placeholder="Password">
+            </div>
+            <div>
+                <label for="state">State</label>
+                <select name="state" id="state">
+                    <option value="blank"></option>
+                    <option value="CO">Colorado</option>
+                    <option value="HI" selected>Hawaii</option>
+                    <option value="UT">Utah</option>
+                </select>
+            </div>
+            <div>
+                <div>Year in School</div>
+                <label> <input type="radio" name="year" value="Freshman"> Freshman</label>
+                <input type="radio" name="year" value="Sophomore"> Sophomore </label>
+                <label> <input type="radio" name="year" value="Junior"> Junior </label>
+                <label> <input type="radio" name="year" value="Senior"> Senior </label>
+            </div>
+            <div class="form-row">
+                <input type="submit">
+            </div>
+
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy; Dio Bondoc, 2025</p>
+    </footer>
+    
+</body>
+</html>
