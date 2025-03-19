@@ -25,39 +25,54 @@
         <p>- This is how we tell on how the data will be sent to the server.</p>
         <p>What is the difference between a "POST" and a "GET"?</p>
         <p>-The main difference is the data is not seen in the url when used POST. GET requests shows it in the url. The main difference is by submitting this form am I changing something in the server, or am I keeping stuff the same. </p>
+        <p>What are different ways to style your form?</p>
+        <p>- You can also use css to style forms. </p>
+        <p>Why does the professor like to use flex?</p>
+        <p>- Because flex makes the page more responsive. </p>
         <form action="processing.html" method="get">
-            <div class="form-row">
-                <label for="fullname">Full Name</label>
-                <input type="text" name="fullname" placeholder="Full Name" required="required" id="fullname">
-            </div>
-            <div class="form-row">
-                <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="Email" required="required" value="diobondoc@byuh.edu" id="email">
-            </div>
-            <div>
-                <label for="pass">Password:</label>
-                <input type="password" name="password" id="pass" placeholder="Password">
-            </div>
-            <div>
-                <label for="state">State</label>
-                <select name="state" id="state">
-                    <option value="blank"></option>
-                    <option value="CO">Colorado</option>
-                    <option value="HI" selected>Hawaii</option>
-                    <option value="UT">Utah</option>
-                </select>
-            </div>
-            <div>
-                <div>Year in School</div>
-                <label> <input type="radio" name="year" value="Freshman"> Freshman</label>
-                <input type="radio" name="year" value="Sophomore"> Sophomore </label>
-                <label> <input type="radio" name="year" value="Junior"> Junior </label>
-                <label> <input type="radio" name="year" value="Senior"> Senior </label>
-            </div>
-            <div class="form-row">
-                <input type="submit">
-            </div>
-
+            <fieldset>
+                <legend>Account Info</legend>
+                <div class="form-row">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" placeholder="Full Name" required="required" id="fullname">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Email" required="required" value="diobondoc@byuh.edu" id="email">
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="password" id="pass" placeholder="Password">
+                </div>
+                <div class="form-row">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="blank"></option>
+                        <option value="CO">Colorado</option>
+                        <option value="HI" selected>Hawaii</option>
+                        <option value="UT">Utah</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer">Year in School: </div>
+                    <label><input type="radio" name="year" value="Freshman"> Freshman</label>
+                    <label><input type="radio" name="year" value="Sophomore"> Sophomore </label>
+                    <label> <input type="radio" name="year" value="Junior"> Junior </label>
+                    <label> <input type="radio" name="year" value="Senior" checked> Senior </label>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer"></div>
+                    <label><input type="checkbox" name="agree" id="agree" checked>Remember me</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-spacer"></div>
+                    <input type="submit">
+                </div>
+            </fieldset>
         </form>
 
     </main>
