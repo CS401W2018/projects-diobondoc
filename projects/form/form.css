@@ -91,7 +91,6 @@ legend{
 
 .form input[type="submit"]:hover {
     background-color: rgb(54, 50, 160);
-    transform: scale(1.05); 
 }
 
 footer{
