@@ -73,13 +73,25 @@ legend{
     text-align: right;
 }
 
+.form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(77, 73, 190);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
 .form input:not([type="submit"]):focus{
     background-color: rgb(150, 194, 216);
 }
 
-.form input[type="submit"]{
-    padding: 10px;
-    background-color: rgb(77, 73, 190);
+
+.form input[type="submit"]:hover {
+    background-color: rgb(54, 50, 160);
+    transform: scale(1.05); 
 }
 
 footer{
