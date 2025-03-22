@@ -1,0 +1,101 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-image: url(teamliquid.jpg);
+    background-color: rgb(24, 62, 95);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: rgb(146, 106, 19);
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(32, 32, 71);
+    width: 100%;
+    margin: 10;
+    padding: 20px;
+
+}
+nav a{
+    display: block;
+    border: thin solid black;
+    background-color: rgb(26, 83, 133);
+    padding: 5px 10px;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+
+}
+
+nav a:hover{
+    background-color: azure;
+    color: rgb(18, 27, 75);
+}
+
+fieldset{
+    background-color: rgb(18, 27, 75);
+}
+
+legend{
+    background-color: azure;
+    padding: 10px;
+    border: thin solid black;
+    box-shadow: 10px 10px 10px;
+}
+
+.form{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.form label{
+    color: aliceblue;
+    width: 150px;
+    text-align: right;
+}
+
+.radio{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    color: aliceblue;
+}
+
+.spacer{
+    width: 150px;
+    text-align: right;
+}
+
+.form input:not([type="submit"]):focus{
+    background-color: rgb(150, 194, 216);
+}
+
+.form input[type="submit"]{
+    padding: 10px;
+    background-color: rgb(77, 73, 190);
+}
+
+
+
+@media ONLY screen and (max-width:600px) {
+    .form, .radio{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form label{
+        text-align: left;
+    }
+
+    .spacer{
+        text-align: left;
+    }
+    
+}

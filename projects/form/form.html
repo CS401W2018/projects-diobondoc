@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Team Liquid</h1>
+    </header>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+    <main>
+        <form action="processing.html" method="post">
+            <fieldset>
+                <legend>Dota 2 Pro Player application</legend>
+                <div class="form">
+                    <label for="fullname"> Full name:</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Full name" required>
+                </div>
+                <div class="form">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" required placeholder="Email">
+                </div>
+                <div class="form">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required placeholder="Password">
+                </div>
+                <div class="form">
+                    <label for="mmr">MMR:</label>
+                    <input type="number" name="mmr" id="mmr" required placeholder="MMR">
+                </div>
+                <div class="radio">
+                    <div class="spacer">Main role: </div>
+                    <label><input type="radio" name="roles" value="Carry">Carry</label>
+                    <label><input type="radio" name="roles" value="Carry">Midlane</label>
+                    <label><input type="radio" name="roles" value="Carry">Offlane</label>
+                    <label><input type="radio" name="roles" value="Carry">Soft Support</label>
+                    <label><input type="radio" name="roles" value="Carry">Hard Support</label>
+                </div>
+                <div class="radio">
+                    <div class="spacer"></div>
+                    <label><input type="checkbox" name="agree" id="agree">Are you flexible with any roles?</label>
+                </div>
+                <div class="form">
+                    <label for="Heroes">Favorite Hero</label>
+                    <select name="Heroes" id="Heroes">
+                        <option value="blank"></option>
+                        <option value="DK">Dragon Knight</option>
+                        <option value="Mirana">Mirana</option>
+                        <option value="Faceless Void">Faceless Void</option>
+                        <option value="Troll Warlord">Troll Warlord</option>
+                        <option value="Drow">Drow Ranger</option>
+                </select>
+                </div>
+                <div class="form">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form">
+                    <input type="submit" name="submit" id="submit">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Dio Bondoc, 2025</p>
+    </footer>
+</body>
+</html>
