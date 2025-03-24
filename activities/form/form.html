@@ -29,12 +29,20 @@
         <p>- You can also use css to style forms. </p>
         <p>Why does the professor like to use flex?</p>
         <p>- Because flex makes the page more responsive. </p>
-        <form action="processing.html" method="get">
+        <p>What is JavaScript? How did it get its name?</p>
+        <p>- JavaScript is a programming language, it was invented in the late 1990s. It was invented by the makers by netscape. It was named JavaScript after Java because it helps run programming in the webpage.</p>
+        <p>What are the two ways you can run JavaScript?</p>
+        <p>- JavaScript is running in our browser (DOM). Nodejs this is a js intepreter that run outside the webpage.</p>
+        <p>What was the most popular front-end js library?</p>
+        <p>- JQuery library</p>
+        <p>What is the most popular front-end js library today?</p>
+        <p>- React.js</p>
+        <form action="processing.html" method="get" id="dio">
             <fieldset>
                 <legend>Account Info</legend>
                 <div class="form-row">
                     <label for="fullname">Full Name</label>
-                    <input type="text" name="fullname" placeholder="Full Name" required="required" id="fullname">
+                    <input type="text" name="fullname" placeholder="Full Name"  id="fullname">
                 </div>
                 <div class="form-row">
                     <label for="email">Email:</label>
@@ -43,6 +51,10 @@
                 <div class="form-row">
                     <label for="pass">Password:</label>
                     <input type="password" name="password" id="pass" placeholder="Password">
+                </div>
+                <div class="form-row">
+                    <label for="pass">Age:</label>
+                    <input type="number" name="age" id="age" placeholder="Age">
                 </div>
                 <div class="form-row">
                     <label for="state">State</label>
@@ -79,6 +91,35 @@
     <footer>
         <p>&copy; Dio Bondoc, 2025</p>
     </footer>
-    
+    <script>
+        document.getElementById('dio').addEventListener('submit', function(event){
+            event.preventDefault();
+            alert("Form Submitted");
+
+            const fullname = document.getElementById('fullname').value;
+            const pass = document.getElementById('pass').value;
+            const email = document.getElementById('email').value;
+            const age = document.getElementById('age').value;
+
+            if (!fullname){
+                alert("You need to enter your name.");
+                return;
+            }
+
+            if (!age || age <18){
+                alert("You need to be 18");
+                return;
+            }
+
+            const formData = {
+                fullname: fullname,
+                email: email,
+                pass: pass,
+
+            };
+
+            console.log(formData);
+        });
+    </script>
 </body>
 </html>
