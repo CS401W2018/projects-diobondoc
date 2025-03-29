@@ -37,6 +37,10 @@
         <p>- JQuery library</p>
         <p>What is the most popular front-end js library today?</p>
         <p>- React.js</p>
+        <p>What is AJAX?</p>
+        <p>- It is the acronym for Asynchronous JavaScript And XML. Ajax makes web pages become updated in series by exchanging data with a web server behind the scenes. </p>
+        <p>Why do you put your JS Code in a seperate file?</p>
+        <p>- It makes it easier to maintain and read.</p>
         <form action="processing.html" method="get" id="dio">
             <fieldset>
                 <legend>Account Info</legend>
@@ -91,35 +95,6 @@
     <footer>
         <p>&copy; Dio Bondoc, 2025</p>
     </footer>
-    <script>
-        document.getElementById('dio').addEventListener('submit', function(event){
-            event.preventDefault();
-            alert("Form Submitted");
-
-            const fullname = document.getElementById('fullname').value;
-            const pass = document.getElementById('pass').value;
-            const email = document.getElementById('email').value;
-            const age = document.getElementById('age').value;
-
-            if (!fullname){
-                alert("You need to enter your name.");
-                return;
-            }
-
-            if (!age || age <18){
-                alert("You need to be 18");
-                return;
-            }
-
-            const formData = {
-                fullname: fullname,
-                email: email,
-                pass: pass,
-
-            };
-
-            console.log(formData);
-        });
-    </script>
+    <script src="form.js"></script>
 </body>
 </html>
