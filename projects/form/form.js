@@ -10,7 +10,7 @@ document.getElementById('dio').addEventListener('submit', function(event){
     const roles = roleElement ? roleElement.value : "";
     const comments = document.getElementById('comments').value;
     const flexible = document.getElementById('agree').value;
-    const hero = document.getElementById('Heroes').value
+    const hero = document.getElementById('Heroes').value;
     if (!fullname){
         alert("You need to enter your name.");
         return;
