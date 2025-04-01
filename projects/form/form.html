@@ -18,7 +18,8 @@
         <a href="#">link</a>
     </nav>
     <main>
-        <form action="processing.html" method="post">
+        <div id="message"></div>
+        <form action="processing.html" method="get" id="dio">
             <fieldset>
                 <legend>Dota 2 Pro Player application</legend>
                 <div class="form">
@@ -31,7 +32,7 @@
                 </div>
                 <div class="form">
                     <label for="password">Password:</label>
-                    <input type="password" name="password" id="password" required placeholder="Password">
+                    <input type="password" name="password" id="pass" required placeholder="Password">
                 </div>
                 <div class="form">
                     <label for="mmr">MMR:</label>
@@ -39,11 +40,11 @@
                 </div>
                 <div class="radio">
                     <div class="spacer">Main role: </div>
-                    <label><input type="radio" name="roles" value="Carry">Carry</label>
-                    <label><input type="radio" name="roles" value="Midlae">Midlane</label>
-                    <label><input type="radio" name="roles" value="Offlane">Offlane</label>
-                    <label><input type="radio" name="roles" value="Soft Support">Soft Support</label>
-                    <label><input type="radio" name="roles" value="Hard Support">Hard Support</label>
+                    <label><input type="radio" name="roles" value="Carry" id="role">Carry</label>
+                    <label><input type="radio" name="roles" value="Midlae" id="role">Midlane</label>
+                    <label><input type="radio" name="roles" value="Offlane" id="role">Offlane</label>
+                    <label><input type="radio" name="roles" value="Soft Support" id="role">Soft Support</label>
+                    <label><input type="radio" name="roles" value="Hard Support" id="role">Hard Support</label>
                 </div>
                 <div class="radio">
                     <div class="spacer"></div>
