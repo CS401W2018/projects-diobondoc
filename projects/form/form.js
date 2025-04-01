@@ -6,7 +6,8 @@ document.getElementById('dio').addEventListener('submit', function(event){
     const pass = document.getElementById('pass').value;
     const email = document.getElementById('email').value;
     const mmr = document.getElementById('mmr').value;
-    const roles  = document.getElementById('role').value;
+    const roleElement = document.querySelector('input[name="roles"]:checked');
+    const roles = roleElement ? roleElement.value : "";
     const comments = document.getElementById('comments').value;
     const flexible = document.getElementById('agree').value;
     const hero = document.getElementById('Heroes').value
