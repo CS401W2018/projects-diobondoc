@@ -168,14 +168,21 @@ figcaption{
 .category{
     margin: 20px;
     gap: 20px;
+    text-align: center;
 }
-
 
 .item {
     background-color: rgb(33, 33, 33);
+    width: 50%;
+    margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 4px 10px rgba(255, 140, 0, 0.3);
+}
+
+.item img{
+    margin: 0;
+    width: 100%;
 }
 
 
