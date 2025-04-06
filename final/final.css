@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-    color: orange;
+    color: rgb(19, 16, 12);
     transform: scale(1.1);
 }
 
