@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#div1{
+    border: thin solid black;
+    padding: 10px;
+}
+
+#div2{
+    border: thin solid black;
+    padding: 10px;
+}
+
+#div3{
+    border: thin solid black;
+    padding: 10px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}

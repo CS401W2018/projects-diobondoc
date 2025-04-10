@@ -1,0 +1,21 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a {
+    background-color: antiquewhite;
+    display: block;
+    padding: 10px;
+}
+
+#div1{
+    padding: 10px;
+    margin: 10px;
+    border: thin solid black;
+}
+
+#div2{
+    padding: 10px;
+    margin: 10px;
+    border: thin solid black;
+}
