@@ -140,6 +140,11 @@ nav a:hover {
     margin: 20px;
 }
 
+.accessory h2{
+    color: orange;
+    margin-bottom: 10px;
+}
+
 .product{
     display: flex;
     flex-wrap: wrap;
